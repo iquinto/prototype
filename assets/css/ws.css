@@ -1,0 +1,77 @@
+.theme-logo{
+  line-height: 80px;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.cosmos{
+  color: black!important
+}
+
+.ws-socials a{
+  font-size: 30px !important;
+  color: black !important
+}
+.slogan{
+	font-weight: 900;
+    font-size: 52px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #191a20;
+}
+
+.theme-title {
+    margin-top: 40px !important;
+    background-color: rgba(210,35,42,0.7);
+    width: 100%;
+}
+
+.theme-title h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.theme-title nav{
+    margin: 20px 0px 20px 0px;
+}
+
+.theme-title li{
+    color: white !important;
+}
+
+.theme-border{
+  padding: 10px;
+  border:1px solid gray;
+}
+
+.theme-color{
+  color:  #d2232a!important
+}
+
+.theme-btn{
+  margin: 5px; 
+  background: #d2232a!important;
+  width: 100%
+
+}
+.theme-form {
+    padding: 32px 31px 16px;
+    background-color: white;
+}
+
+.theme-form .form-group{
+  margin-bottom:20px; 
+}
+
+.theme-form .ws-form-group{
+  margin-bottom:20px; 
+}
+
+.theme-info{
+      padding: 32px 31px 16px;
+}
+
+
