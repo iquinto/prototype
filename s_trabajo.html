@@ -39,7 +39,7 @@
 
 <body>
 
-  <!-- ======= Header ======= -->
+   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto"><a href="index.html"><span style="color: black" class="theme-logo">WORKING</span><span class="theme-logo">STUDENT</span></a></h1>
@@ -101,7 +101,7 @@
               </ol>
             </nav>
 
-            <h1>Mi perfil | Empresa</h1>
+            <h1>Ofertas de Trabajos</h1>
           </div>
         </div>
     </div>  
@@ -113,130 +113,66 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="card theme-box">
-                        <h2>Datos Personales</h2>
-                        <center><img class="card-img-top" src="assets/img/add-user.png" style="max-width: 250px"></center>
-                        <button class="btn btn-primary theme-btn">Editar</button>                    
-                  </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="card theme-box">
-                        <h2>Sobre mi</h2>
-                        <p>
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                        </p>
+                        <h2>Filtros</h2>
+                        <div class="form-group">
+                          <label for="usr">Query:</label>
+                          <input type="text" class="form-control" id="usr"> 
+                        </div><br>
+                        <div class="form-group">
+                          <label for="usr">Query:</label>
+                          <input type="text" class="form-control" id="usr"> 
+                        </div><br>
+                        <button type="button" style="background-color: #d2232a!important; width: 100%; color: white; font-size: 18px;" class="btn btn-primary">Editar horarios</button>     
                     </div>
                   </div>
-                  <div class="col-md-12">
-                    <div class="card theme-box">
-                        <h2>Mis curriculums</h2>
-                        <img class="card-img-top" src="assets/img/add-file.png" style="max-width: 100px"></center>
-                    </div>
-                  </div>
+                  
                 </div>
               </div> 
               <div class="col-md-8">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="card theme-box2">
-                        <h2>Disponibilidad</h2>
-
-                        <div class="row theme-box no-gutters ">
-                          <div class="col">
-                            <p>Lunes</p>
-                            <span id="l0"></span>     
-                          </div>
-                          <div class="col">
-                            <p>Martes</p>
-                            <span id="l1"></span> 
-                          </div>
-                          <div class="col">
-                            <p>Miercoles</p>
-                            <span id="l2"></span> 
-                          </div>
-                          <div class="col">
-                            <p>Jueves</p>
-                            <span id="l3"></span> 
-                          </div>
-                          <div class="col">
-                            <p>Viernes</p>
-                            <span id="l4"></span> 
-                          </div>
-                          <div class="col">
-                            <p>Sabado</p>
-                            <span id="l5"></span> 
-                          </div>
-                          <div class="col">
-                            <p>Domingo</p>
-                            <span id="l6"></span> 
-                          </div>
-                          <div class="col-md-12">
-                            <button type="button" style="background-color: #d2232a!important; width: 100%; color: white; font-size: 18px;" class="btn btn-primary">Editar horarios</button>
-                          </div>
-                        </div>
+                <div class="card theme-box">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <center><img class="card-img-top" src="assets/img/add-user.png" style="max-width: 100px"></center>
                     </div>
-                  </div>
-
-<script>
-
-
-var s = []
-var j = '<button type="button" class="btn btn-primary">09:00-10:00</button><br>'
-for (var i = 10; i < 20; i++) {
-  j = j + '<button type="button" class="btn btn-primary">'+i+':00-'+(i+1)+':00</button><br>'
-}
-document.getElementById("l1").innerHTML = j;
-
-
-for (var i = 0; i < 7; i++) {
-  document.getElementById("l"+i).innerHTML = j;
-
-}
-
-</script>
-
-                  <div class="col-md-12">
-                    <div class="card theme-box">
-                        <h2>Listado de reservas</h2>
-                        <table class="table" style="padding: 20px;">
-                            <thead>
-                              <tr>
-                                <th scope="col">Estado</th>
-                                <th scope="col">Inicio</th>
-                                <th scope="col">Fin</th>
-                                <th scope="col">Empresa</th>
-                                <th scope="col">Aciones</th>
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>Pendiente</td>
-                                <td>2022-03-13 </td>
-                                <td>2022-04-13</td>
-                                <td>Jose Perez</td>
-                                <td>Ver</td>
-                              </tr>
-                              <tr>
-                                <td>Acceptado</td>
-                                <td>2022-03-13 </td>
-                                <td>2022-04-13</td>
-                                <td>Chiringuito Jose</td>
-                                <td>Ver</td>
-                              </tr>
-                            </tbody>
-                          </table>
-
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="card theme-box">
-                        <h2>Evolución mensual reservas</h2>
-                        <center><img class="card-img-top" src="assets/img/graph.png" style="width: 80%"></center>
-
+                    <div class="col-md-8">
+                      <h2 style="color: black !important; text-align: left !important;">Trabajo 1</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...
+                      </p>
+                      <button type="button" style="background-color: #d2232a!important; width: 50%; color: white; font-size: 18px;" class="btn btn-primary">Ver</button> 
                     </div>
                   </div>
                 </div>
                 
+                <div class="card theme-box">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <center><img class="card-img-top" src="assets/img/add-user.png" style="max-width: 100px"></center>
+                    </div>
+                    <div class="col-md-8">
+                      <h2 style="color: black !important; text-align: left !important;">Trabajo 2</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...
+                      </p>
+                      <button type="button" style="background-color: #d2232a!important; width: 50%; color: white; font-size: 18px;" class="btn btn-primary">Ver</button> 
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card theme-box">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <center><img class="card-img-top" src="assets/img/add-user.png" style="max-width: 100px"></center>
+                    </div>
+                    <div class="col-md-8">
+                      <h2 style="color: black !important; text-align: left !important;">Trabajo 3</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut ...
+                      </p>
+                      <button type="button" style="background-color: #d2232a!important; width: 50%; color: white; font-size: 18px;" class="btn btn-primary">Ver</button> 
+                    </div>
+                  </div>
+                </div>
               </div> 
           </div>
         </div>
